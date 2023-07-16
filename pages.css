@@ -1,0 +1,108 @@
+.images img{
+    border-radius: 10px;
+}
+body::-webkit-scrollbar{
+    width: 10px;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background-color: #e4e4e4;
+    border-radius: 100px;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: grey;
+    border-radius: 100px;
+  }
+.images p{
+    color: grey;
+}
+header{
+    position: relative;
+}
+.p2{
+    background-color: black; width: 40px; border-radius: 4px;
+    float: right;
+    color: white;
+    margin-top: -25px;
+    margin-right: 10px;
+}
+em{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+ul{
+  list-style-type: none;
+}
+.liens:hover:not(.active) {
+    background-color: whitesmoke;
+    border-radius: 20px;
+    width: 220px;
+  }
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+  li a.active {
+    background-color: #555;
+    color: white;
+  }
+.nav2{
+    position: fixed;
+    background-color: white;
+    width: 82%;
+    top: 60px;
+    float: right;
+    margin-left: 240px;
+    padding-top: 15px;
+    margin-top: -5px;
+}
+.icone1 a:hover:not(.active) {
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+.abonn a:hover:not(.active) {
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+.icone1 a.active {
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+.section1 a p{
+    width: 130px;
+}
+.section2{
+    margin-top: 100px;
+    width: 80%;
+    float: right;
+    margin-left: 275px;
+    
+}
+main{
+    display: grid;
+    grid-column: 2;
+    grid-template-columns: auto auto;
+}
+.icone1 img{
+    width: 25px;
+    height: 25px;
+
+}
+.section1 div a{
+    display: grid; grid-template-columns: 40px 20px; column-gap: 10px;
+}
+@media only screen and (max-width: 700){
+    .nav1{
+        width: 400px;
+    }
+    .section1{
+        width: 50px;
+    } 
+    .section2{
+        display: grid;
+        grid-template-rows: auto auto auto;
+    }
+    
+}
